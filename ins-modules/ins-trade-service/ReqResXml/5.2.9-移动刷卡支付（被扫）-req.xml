@@ -4,21 +4,21 @@
       <Version>1.0.0</Version>
       <Appid>2018090700000286</Appid>
       <Function>ant.mybank.bkmerchanttrade.pay</Function>
-      <ReqTime>2018-09-19 10:04:43.049</ReqTime>
+      <ReqTime>2018-09-20 13:44:18.069</ReqTime>
       <ReqTimeZone>UTC+8</ReqTimeZone>
-      <ReqMsgId>d8afb7cb-3ca6-4d5a-a5fb-92713066db4f</ReqMsgId>
+      <ReqMsgId>501001e4-65da-4df6-b4ee-5f65e3d46546</ReqMsgId>
       <InputCharset>UTF-8</InputCharset>
     </head>
     <body>
-      <IsvOrgId>202210000000000001316</IsvOrgId>
-      <AuthCode>796141f0-f94d-4cbd-86b9-200d529ee4d4</AuthCode>
-      <OutTradeNo>ca7d12b5-1c24-4acb-9b5c-59b9364463ef</OutTradeNo>
+      <AuthCode>134973707723391237</AuthCode>
+      <OutTradeNo>98910a7bc0ae4cafa3e82bfa30a6f7d5</OutTradeNo>
       <Body>反扫测试-碧螺春</Body>
       <GoodsTag>test</GoodsTag>
       <GoodsDetail>test</GoodsDetail>
-      <TotalAmount>12300</TotalAmount>
+      <TotalAmount>1</TotalAmount>
       <Currency>CNY</Currency>
-      <MerchantId>226801000000142576686</MerchantId>
+      <MerchantId>226801000000142627642</MerchantId>
+      <IsvOrgId>202210000000000001316</IsvOrgId>
       <ChannelType>WX</ChannelType>
       <OperatorId>test</OperatorId>
       <StoreId>test</StoreId>
@@ -27,26 +27,33 @@
       <ExpireExpress>60</ExpireExpress>
       <SettleType>T1</SettleType>
       <Attach>附加信息</Attach>
+      <PayLimit>pcredit</PayLimit>
+      <DiscountableAmount>1</DiscountableAmount>
+      <UndiscountableAmount>1</UndiscountableAmount>
+      <SubAppId>wx62a55dbdd041bb1d</SubAppId>
+      <SpecifySubMerchId>N</SpecifySubMerchId>
+      <ChannelId>240824008</ChannelId>
+      <SubMerchId>243108596</SubMerchId>
     </body>
   </request>
   <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-    <ds:SignedInfo>
-      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
-      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod>
-      <ds:Reference URI="">
-        <ds:Transforms>
-          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
-        </ds:Transforms>
-        <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
-        <ds:DigestValue>cWiZlwYy4sodpkqT7d9wJHODT2Y=</ds:DigestValue>
-      </ds:Reference>
-    </ds:SignedInfo>
-    <ds:SignatureValue>
-      dkVzJUQtygjmM9taH7Rwq8pFnmD29Nhl1k5Piml6uV2wa1Fau9UNLveHb9YF8Q9+nScUTOao8LXu
-      9oqe/svLhhqof6qgluD1lpGD4xPW31azXxBgbZMXZQfiwLrk3UijOe0/Q0YDJ+KLOMvQZXEU7ukH
-      CCdQsX9+Rjh66cXMnrY2FFxR8hjYibO4wwWscOPoltpThGi2CQdDRKvHmg1qOC1mLNygcZEhksVg
-      yb7ORFraTxb9+pU8s7nYT4CDCCk5tRDvlodp8E3psic/BLwdzC15FBt2maoLO7urma2bh/pwVxvX
-      p8Nag0MlyGXEhSE1pZ18m4fARdVEpJ1aPJK1Tg==
-    </ds:SignatureValue>
-  </ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod>
+    <ds:Reference URI="">
+      <ds:Transforms>
+        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+      </ds:Transforms>
+      <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+      <ds:DigestValue>7edWgmMl4oPpmPcYxeiEoVdizoE=</ds:DigestValue>
+    </ds:Reference>
+  </ds:SignedInfo>
+  <ds:SignatureValue>
+    EIGaJEcpaxVbCFcI49ht4OCvC8ghK7H+iP8Xh4zMfSBRmfZEuoRno7DyTza46s8Uxr7z7EL0KYPy
+    H1qiLS4IInst8q1JXdXQyfgds3RsL6DSnLHA6zPe0Pb1g7U3OwNzFkaDUsU0EzhIP0vCLC1z/o3T
+    S2yf2coSUpjcZ8HH4hYNmkFXlXzCi3UlXiRbNDWUC6RSMuq/LQ5ZU8DmlueLmnJbntTvXFWvlufo
+    w9iPPDgoXuMPePsK+y5Ni5U9yIDkCWw6bbIVXZ8z+CbRraBwC6i9Rfb+jQJr1wAdxKlLL5gex4aS
+    6i3NQHdBH625TSvuDClEiG4NHj77PYCD4536Yg==
+  </ds:SignatureValue>
+</ds:Signature>
 </document>

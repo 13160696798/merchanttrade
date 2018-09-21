@@ -1,0 +1,44 @@
+<document>
+  <request id="request">
+    <head>
+      <Version>1.0.0</Version>
+      <Appid>2018090700000286</Appid>
+      <Function>ant.mybank.bkmerchanttrade.refund</Function>
+      <ReqTime>2018-09-20 14:09:20.461</ReqTime>
+      <ReqTimeZone>UTC+8</ReqTimeZone>
+      <ReqMsgId>6db8a627-cfa2-486e-b127-0976dea899c4</ReqMsgId>
+      <InputCharset>UTF-8</InputCharset>
+    </head>
+    <body>
+      <IsvOrgId>202210000000000001316</IsvOrgId>
+      <OutTradeNo>98910a7bc0ae4cafa3e82bfa30a6f7d5</OutTradeNo>
+      <MerchantId>226801000000142627642</MerchantId>
+      <OutRefundNo>4658933b-bbd3-4e4e-bac7-5b96203b2b93</OutRefundNo>
+      <RefundAmount>1</RefundAmount>
+      <RefundReason>test</RefundReason>
+      <OperatorId>test</OperatorId>
+      <DeviceId>test</DeviceId>
+      <DeviceCreateIp>127.0.0.1</DeviceCreateIp>
+    </body>
+  </request>
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod>
+    <ds:Reference URI="">
+      <ds:Transforms>
+        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+      </ds:Transforms>
+      <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+      <ds:DigestValue>gYgJ27bfRKVUEuG+usRBEBnEqsw=</ds:DigestValue>
+    </ds:Reference>
+  </ds:SignedInfo>
+  <ds:SignatureValue>
+    Vt/JJ5a0b+ujEvOUc78okStRYWlioMsW1Otgo3cy8umZGhf12DtgJ8TzW1pLH4pYXjwcYGa+yqs7
+    zgupknrIVxN5Hqud+45Km/HsD3PT44OhH3mQzZdDn5wGhBwuKLeI0aEzhT+7pik5ZZ8XBZ6coP6O
+    sQBn7gGYk5Q5wtkEr+1LElyBFFGTGnOveTQoZrOy3Kjex5vBUQTWYCJttTFQOsFDQ0MgQMO3eg5K
+    1UR0/PHtRgFPCbrGcsRMoBB8eQqQccB9TspKyAkovAHd0U/qeKkyokRxZVMzKTvtiacdeldDPRK7
+    IOcvN6hhAQPmXDS2Rz1rzUmWiBhmiLfSxYZMeQ==
+  </ds:SignatureValue>
+</ds:Signature>
+</document>

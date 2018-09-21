@@ -4,20 +4,20 @@
       <Version>1.0.0</Version>
       <Appid>2018090700000286</Appid>
       <Function>ant.mybank.bkmerchanttrade.pay</Function>
-      <RespTime>20180919100447</RespTime>
+      <RespTime>20180920140223</RespTime>
       <RespTimeZone>UTC+8</RespTimeZone>
-      <ReqMsgId>d8afb7cb-3ca6-4d5a-a5fb-92713066db4f</ReqMsgId>
+      <ReqMsgId>3ee7b0f4-1316-4c9c-a289-59f4f174a72e</ReqMsgId>
       <Reserve></Reserve>
       <SignType>RSA</SignType>
       <InputCharset>UTF-8</InputCharset>
     </head>
     <body>
       <RespInfo>
-        <ResultStatus>F</ResultStatus>
-        <ResultCode>MT_PAY_AUTH_CODE_IS_DISABLED</ResultCode>
-        <ResultMsg>授权码无效</ResultMsg>
+        <ResultStatus>U</ResultStatus>
+        <ResultCode>MT_USER_PAYING</ResultCode>
+        <ResultMsg>等待用户支付</ResultMsg>
       </RespInfo>
-      <OutTradeNo>ca7d12b5-1c24-4acb-9b5c-59b9364463ef</OutTradeNo>
+      <OutTradeNo>98910a7bc0ae4cafa3e82bfa30a6f7d5</OutTradeNo>
       <OrderNo></OrderNo>
       <ChannelType></ChannelType>
       <TotalAmount></TotalAmount>
@@ -51,13 +51,13 @@
           <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
         </Transforms>
         <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
-        <DigestValue>Zw+K4c2EnHMHUMmpCugxgKrpFlE=</DigestValue>
+        <DigestValue>KVs7WwzZVunsMp6HnFiQ7yxBQvU=</DigestValue>
       </Reference>
     </SignedInfo>
     <SignatureValue>
-      Ds3ciATB8e5Pu27A5kypDtXc54CM699el2f6KWnsZkUnZK3fYxF/kF2s3ZYOQP82HpLdWidHCAhW
-      8W2RUSStQJy8wM5/qOk0i3eB+iRHJejD6VE6m4y3g8b9psgV9XPVctVpEQImg0i3+33FQMb9eypj
-      7vxWlDK8niYUcDAQhGQ=
+      CPHPpKSJXSV37QDfWs3ivPWZYJmJKA1rfCQbkz8s08YQMO5GQ1NZN57DwITLXDuVE+0TGlNrXlsR
+      +6cd6NPLAHCmN1AbbbsXV+kuQQFjRIvnrKrbzUFY/d7zAh65HGPYbbwE9bNFfvD+p9RUxQqH/rHr
+      w2P5kwWRWhR5oF7Tipo=
     </SignatureValue>
   </Signature>
 </document>

@@ -1,0 +1,72 @@
+<document>
+  <response id="response">
+    <head>
+      <Version>1.0.0</Version>
+      <Appid>2018090700000286</Appid>
+      <Function>ant.mybank.bkmerchanttrade.payQuery</Function>
+      <RespTime>20180920140341</RespTime>
+      <RespTimeZone>UTC+8</RespTimeZone>
+      <ReqMsgId>29751156-1e2d-478c-a758-cbd6d42e9c9a</ReqMsgId>
+      <Reserve></Reserve>
+      <SignType>RSA</SignType>
+      <InputCharset>UTF-8</InputCharset>
+    </head>
+    <body>
+      <RespInfo>
+        <ResultStatus>S</ResultStatus>
+        <ResultCode>0000</ResultCode>
+        <ResultMsg></ResultMsg>
+      </RespInfo>
+      <OutTradeNo>98910a7bc0ae4cafa3e82bfa30a6f7d5</OutTradeNo>
+      <OrderNo>2018092010152010010001640000554110</OrderNo>
+      <OrderType>pay</OrderType>
+      <TradeStatus>succ</TradeStatus>
+      <ChannelType>WX</ChannelType>
+      <TotalAmount>1</TotalAmount>
+      <Currency>CNY</Currency>
+      <MerchantId>226801000000142627642</MerchantId>
+      <IsvOrgId>202210000000000001316</IsvOrgId>
+      <Body>反扫测试-碧螺春</Body>
+      <GoodsTag>test</GoodsTag>
+      <GoodsDetail>test</GoodsDetail>
+      <OpenId>otBP8wT1YMb78iUhKZgYxxIg7kTc</OpenId>
+      <OperatorId>test</OperatorId>
+      <StoreId>test</StoreId>
+      <DeviceId>test</DeviceId>
+      <SettleType>T1</SettleType>
+      <Attach>附加信息</Attach>
+      <GmtPayment>2018-09-20 14:02:44</GmtPayment>
+      <BankType>ICBC</BankType>
+      <IsSubscribe>N</IsSubscribe>
+      <PayChannelOrderNo>4200000168201809207047265118</PayChannelOrderNo>
+      <MerchantOrderNo>MYBKJHZF2018092014022114490556</MerchantOrderNo>
+      <SubAppId>wx62a55dbdd041bb1d</SubAppId>
+      <CouponFee></CouponFee>
+      <SubOpenId></SubOpenId>
+      <BuyerLogonId></BuyerLogonId>
+      <BuyerUserId></BuyerUserId>
+      <Credit>DEBIT</Credit>
+      <ReceiptAmount></ReceiptAmount>
+      <BuyerPayAmount></BuyerPayAmount>
+      <InvoiceAmount></InvoiceAmount>
+    </body>
+  </response>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+        <DigestValue>baZ/E2wqmsj8wlR5tEj4ul9cIzI=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>
+      Dh2bTCvGIntZm+HaBoKwMWIlgRjAL45fkrViuTtCKJx0sZXIxzNn6RUSzNhbbIIgsisBqzAL+9tq
+      bSXefUbcgrDe8f8/unycjfaaqVXbzfPx/V1QgZToMa3CEOeVo+2rl4GzWoiTuo2GX4qn3PGhtHng
+      AJpqF1oWhFLfjLtPYk4=
+    </SignatureValue>
+  </Signature>
+</document>
