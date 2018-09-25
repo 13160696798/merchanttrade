@@ -1,0 +1,40 @@
+<document>
+  <response id="response">
+    <head>
+      <Version>1.0.0</Version>
+      <Appid>2018090700000286</Appid>
+      <Function>ant.mybank.merchantprod.merchant.addMerchantConfig</Function>
+      <RespTime>20180925194945</RespTime>
+      <RespTimeZone>UTC+8</RespTimeZone>
+      <ReqMsgId>9c1eb9bc-3c85-4273-84da-c2aa319a4eb9</ReqMsgId><Reserve>
+    </Reserve><SignType>RSA</SignType>
+      <InputCharset>UTF-8</InputCharset>
+    </head>
+    <body>
+      <RespInfo>
+        <ResultStatus>F</ResultStatus>
+        <ResultCode>BKMP_ADD_CONFIG_ERROR</ResultCode>
+        <ResultMsg>subappid信息错误，请检查修改后重试</ResultMsg>
+      </RespInfo>
+      <OutTradeNo>98910a7bc0ae4cafa3e82bfa30a6f7d5</OutTradeNo>
+    </body>
+  </response>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+        <DigestValue>5aiPVAs6M+4anO0ojyxSi43h3vk=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>
+      L4vGQPlmR19G3UDc37R0RKcBSvjP5eEcjenqXgulHsCUCRw1eGmaukfSzmCj6Fg3jvQ8njppGAfC
+      pLWsoWgDhC35j4b1AhQnWi7hu8BA9iy01+byqi4Z4Br2FpdPaqcAArSWyfPm5QbJCjU20U6KslVj
+      Y9jFpsxkrHH6+xkks2M=
+    </SignatureValue>
+  </Signature>
+</document>
