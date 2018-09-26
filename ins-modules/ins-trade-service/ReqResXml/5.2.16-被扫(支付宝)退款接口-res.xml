@@ -1,0 +1,45 @@
+<document>
+<response id="response">
+  <head>
+    <Version>1.0.0</Version>
+    <Appid>2018090700000286</Appid>
+    <Function>ant.mybank.bkmerchanttrade.refund</Function>
+    <RespTime>20180926151042</RespTime>
+    <RespTimeZone>UTC+8</RespTimeZone>
+    <ReqMsgId>be95626c-5fde-4598-b19f-c6b5cae872d0</ReqMsgId>
+    <Reserve></Reserve>
+    <SignType>RSA</SignType>
+    <InputCharset>UTF-8</InputCharset>
+  </head>
+  <body>
+    <RespInfo>
+      <ResultStatus>S</ResultStatus>
+      <ResultCode>0000</ResultCode>
+      <ResultMsg></ResultMsg>
+    </RespInfo>
+    <IsvOrgId>202210000000000001316</IsvOrgId>
+    <MerchantId>226801000000142627642</MerchantId>
+    <OutTradeNo>41f1990717ec4a26ac5da40e91e7d5c8</OutTradeNo>
+    <OutRefundNo>2d34b38e-9240-4cc4-b514-7cb521b3fd8e</OutRefundNo>
+    <RefundOrderNo>2018092610152010030003640000358625</RefundOrderNo>
+    <RefundAmount>2</RefundAmount>
+  </body>
+</response>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>TXDOujvMzhryQM6xAUZDQFdDitU=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+EHljdD8JSn0ze28yW1aK5Ml8VPRdxYiPMSKYtJfeRVvt/Gu8mNwlEP7Q03umvU3JfLQ9ZpK2S5+q
+kx+WeiCaS1rOozgJ/CDBZQyejrmUXkD5gib3FBUuMmQtZTFIymd94epFlEbQsKj9U0/NBMqTk1Kq
+qGUOc2+HDMpxNVP+y2E=
+</SignatureValue>
+</Signature></document>

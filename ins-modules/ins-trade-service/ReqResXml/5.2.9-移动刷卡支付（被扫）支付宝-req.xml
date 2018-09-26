@@ -1,0 +1,58 @@
+<document>
+  <request id="request">
+    <head>
+      <Version>1.0.0</Version>
+      <Appid>2018090700000286</Appid>
+      <Function>ant.mybank.bkmerchanttrade.pay</Function>
+      <ReqTime>2018-09-26 14:41:24.662</ReqTime>
+      <ReqTimeZone>UTC+8</ReqTimeZone>
+      <ReqMsgId>bb3c5e5e-df79-4674-9fcf-3c463845c1c5</ReqMsgId>
+      <InputCharset>UTF-8</InputCharset>
+    </head>
+    <body>
+      <AuthCode>287915129524657172</AuthCode>
+      <OutTradeNo>41f1990717ec4a26ac5da40e91e7d5c8</OutTradeNo>
+      <Body>反扫测试-铁观音</Body>
+      <TotalAmount>3</TotalAmount>
+      <Currency>CNY</Currency>
+      <MerchantId>226801000000142627642</MerchantId>
+      <IsvOrgId>202210000000000001316</IsvOrgId>
+      <ChannelType>ALI</ChannelType>
+      <OperatorId>test1</OperatorId>
+      <StoreId>test1</StoreId>
+      <DeviceId>test1</DeviceId>
+      <DeviceCreateIp>127.0.0.1</DeviceCreateIp>
+      <ExpireExpress>60</ExpireExpress>
+      <SettleType>T1</SettleType>
+      <Attach>附加信息</Attach>
+      <PayLimit>pcredit</PayLimit>
+      <DiscountableAmount>1</DiscountableAmount>
+      <UndiscountableAmount>2</UndiscountableAmount>
+      <AlipayStoreId></AlipayStoreId>
+      <SysServiceProviderId>2018090700000286</SysServiceProviderId>
+      <CheckLaterNm></CheckLaterNm>
+      <SubAppId></SubAppId>
+      <SpecifySubMerchId>N</SpecifySubMerchId>
+      <ChannelId>240824008</ChannelId>
+    </body>
+  </request>
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod>
+    <ds:Reference URI="">
+      <ds:Transforms>
+        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+      </ds:Transforms>
+      <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+      <ds:DigestValue>X/yVE/PEGKFFDwkw841Jg7sel0M=</ds:DigestValue>
+    </ds:Reference>
+  </ds:SignedInfo>
+  <ds:SignatureValue>
+    JsPEdlWUAM5VablOkt5OqSTc7n70XhD6p5CSlvZAQfguBHd89rn1F7rKbTwSkcCGmH/bbgKPBef4
+    +LvckosYVmiUjCL+IbrgJWOsRDXkZtJiW40h7NmBM2kBz2T9GD6+8EA5GdKXolKIAL8/GVJz0cRf
+    2oqp1TM9FkkZ1zjF2X0DN5zzs/JY5m2LYhtsaYaq/XRtO0Lu6SisjDmIezy7/rAC+kdgT0DdF0NV
+    MOx9l6rQQNAnQ27tZD1IHuE2Pw/cfXUXEJeKtd/Ntjz2TgxFxSx5vUfRnhRrRYedyMEjD1qW8iSY
+    f5S48htakJ6gCIXOADcDcSekhNhGgCym7Z7ucw==
+  </ds:SignatureValue>
+</ds:Signature></document>

@@ -1,0 +1,62 @@
+<document>
+  <response id="response">
+    <head>
+      <Version>1.0.0</Version>
+      <Appid>2018090700000286</Appid>
+      <Function>ant.mybank.bkmerchanttrade.pay</Function>
+      <RespTime>20180926144128</RespTime>
+      <RespTimeZone>UTC+8</RespTimeZone>
+      <ReqMsgId>bb3c5e5e-df79-4674-9fcf-3c463845c1c5</ReqMsgId>
+      <Reserve></Reserve>
+      <SignType>RSA</SignType>
+      <InputCharset>UTF-8</InputCharset>
+    </head>
+    <body>
+      <RespInfo>
+        <ResultStatus>S</ResultStatus>
+        <ResultCode>0000</ResultCode>
+        <ResultMsg></ResultMsg>
+      </RespInfo>
+      <OutTradeNo>41f1990717ec4a26ac5da40e91e7d5c8</OutTradeNo>
+      <OrderNo>2018092610152010010001640000563696</OrderNo>
+      <ChannelType>ALI</ChannelType
+      <TotalAmount>3</TotalAmount>
+      <Currency>CNY</Currency>
+      <MerchantId>226801000000142627642</MerchantId>
+      <IsvOrgId>202210000000000001316</IsvOrgId>
+      <Attach>附加信息</Attach>
+      <GmtPayment>2018-09-26 14:41:28</GmtPayment>
+      <BankType></BankType>
+      <PayChannelOrderNo>2018092622001462440516698579</PayChannelOrderNo>
+      <MerchantOrderNo>41f1990717ec4a26ac5da40e91e7d5c8</MerchantOrderNo>
+      <SubAppId></SubAppId>
+      <CouponFee></CouponFee>
+      <IsSubscribe></IsSubscribe>
+      <OpenId></OpenId>
+      <SubOpenId></SubOpenId>
+      <BuyerLogonId>131****6798</BuyerLogonId>
+      <BuyerUserId>2088412422162444</BuyerUserId>
+      <Credit>BALANCE</Credit>
+      <ReceiptAmount>3</ReceiptAmount>
+      <BuyerPayAmount>3</BuyerPayAmount>
+      <InvoiceAmount>3</InvoiceAmount>
+    </body>
+  </response>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+        <DigestValue>zQVnr1AqAx9Xqu4QHBDhCYwUq0M=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>
+      QSc2XglXUWas8GXsYpX5kxLNQWfL72YswvdCnIjZvFXIW7TW7W3dr6+VsUobIBA4vju5xZvQzqYK
+      IlLvT/JZKb2Cgoq3muSn/PnAezIa/tX/JEF+dW++NBY/6sxFJZm3c/vP252H7AJ1gnmbnz1iNFPR
+      ag6jTdW/sesjNdOMu/g=
+    </SignatureValue>
+  </Signature></document>
