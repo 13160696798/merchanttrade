@@ -87,7 +87,7 @@ public class UpdateMerchant {
         merchantDetail = new MerchantDetail();
 //        merchantDetail.setContactName("水电费");
         // 已测
-        merchantDetail.setAlias("中科软2号");
+//        merchantDetail.setAlias("中科软2号");
         //merchantDetail.setCertPhotoB("2461eae4-4813-4022-811f-4be94c41a398");
         form.put("MerchantDetail", merchantDetail.genJsonBase64());
         List<TradeTypeEnum> tradeTypeEnumList = new ArrayList<TradeTypeEnum>();

@@ -80,13 +80,13 @@ public class MerchantQuery extends AbstractReq {
     Map<String, Object> rst = merchantQuery.call();
 
     //将base加密的相关字段解密
-    rst.put("MerchantDetail", new String(decoder.decodeBuffer((String) rst.get("MerchantDetail")), "UTF-8"));
-    rst.put("FeeParamList", new String(decoder.decodeBuffer((String) rst.get("FeeParamList"))));
-    rst.put("BankCardParam", new String(decoder.decodeBuffer((String) rst.get("BankCardParam"))));
-    rst.put("WechatChannelList", new String(decoder.decodeBuffer((String) rst.get("WechatChannelList"))));
-    System.out.println((String) rst.get("MerchantDetail"));
-    System.out.println((String) rst.get("FeeParamList"));
-    System.out.println((String) rst.get("BankCardParam"));
-    System.out.println((String) rst.get("WechatChannelList"));
+    rst.put("merchantDetail", new String(decoder.decodeBuffer((String) rst.get("merchantDetail")), "UTF-8"));
+    rst.put("feeParamList", new String(decoder.decodeBuffer((String) rst.get("feeParamList"))));
+    rst.put("bankCardParam", new String(decoder.decodeBuffer((String) rst.get("bankCardParam"))));
+    rst.put("wechatChannelList", new String(decoder.decodeBuffer((String) rst.get("wechatChannelList"))));
+    System.out.println((String) rst.get("merchantDetail"));
+    System.out.println((String) rst.get("feeParamList"));
+    System.out.println((String) rst.get("bankCardParam"));
+    System.out.println((String) rst.get("wechatChannelList"));
   }
 }

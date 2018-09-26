@@ -40,7 +40,8 @@ public class HttpsMain {
      * 1. 自然人-226801000000141472259
      * 2. 企业商户-226801000000142576686
      */
-    public static String        merchantId   = "226801000000142576686";
+    public static String        merchantId   = "226801000000142627642";
+//            "226801000000142576686";
 
     /**
      * 渠道

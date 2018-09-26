@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--5.2.20	他行卡结算查询接口< ant.mybank.bkmerchantsettle.payResultQuery> -->
+<body>
+  <xmlTag tagName="IsvOrgId"></xmlTag>
+  <xmlTag tagName="MerchantId"></xmlTag>
+  <xmlTag tagName="PayDate"></xmlTag>
+  <xmlTag tagName="QueryMode"></xmlTag>
+</body>

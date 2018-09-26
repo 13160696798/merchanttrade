@@ -38,7 +38,6 @@ public class ScanPay {
         form.put("AuthCode", "28763443825664394");
         form.put("OutTradeNo",UUID.randomUUID().toString().replace("-",""));
         form.put("Body","反扫测试-碧螺春");
-        form.put("GoodsMemo","test");
         form.put("GoodsTag","test");
         form.put("GoodsDetail","test");
         form.put("TotalAmount","2");
