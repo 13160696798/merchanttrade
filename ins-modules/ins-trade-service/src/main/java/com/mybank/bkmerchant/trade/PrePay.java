@@ -39,11 +39,11 @@ public class PrePay {
         form.put("Body","主扫测试-咖啡");
         form.put("GoodsTag","test");
         form.put("GoodsDetail","test");
-        form.put("TotalAmount","1");
+        form.put("TotalAmount","2");
         form.put("Currency","CNY");
         form.put("MerchantId",HttpsMain.merchantId);
         form.put("IsvOrgId", HttpsMain.IsvOrgId);
-        form.put("ChannelType","ALI");
+        form.put("ChannelType","WX");
         form.put("OpenId","test");
         form.put("OperatorId","test");
         form.put("StoreId","test");
@@ -54,16 +54,16 @@ public class PrePay {
         form.put("Attach","test");
 
         //form.put("NotifyUrl","http://notifyurl");
-        form.put("SubAppId","test");
+        form.put("SubAppId","wx62a55dbdd041bb1d");
         form.put("SpecifySubMerchId","N");
-        form.put("ChannelId","");
-        form.put("SubMerchId","");
-        form.put("PayLimit","credit");
+        form.put("ChannelId","240824008");
+        form.put("SubMerchId","243108596");
+        form.put("PayLimit","pcredit");
         form.put("DiscountableAmount","1");
         form.put("UndiscountableAmount","1");
         form.put("AlipayStoreId","支付宝的店铺编号");
         form.put("SysServiceProviderId","2018090700000286");
-        form.put("CheckLaterNm","3");
+        form.put("CheckLaterNm","");
         //封装报文
         String param = xmlUtil.format(form, function);
         if (HttpsMain.isSign) {//生产环境需进行rsa签名
