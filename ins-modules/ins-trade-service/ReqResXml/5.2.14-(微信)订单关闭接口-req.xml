@@ -1,0 +1,38 @@
+<document>
+  <request id="request">
+    <head>
+      <Version>1.0.0</Version>
+      <Appid>2018090700000286</Appid>
+      <Function>ant.mybank.bkmerchanttrade.payQuery</Function>
+      <ReqTime>2018-09-27 19:15:15.949</ReqTime>
+      <ReqTimeZone>UTC+8</ReqTimeZone>
+      <ReqMsgId>326e2fe7-4557-4f10-81ed-4fbdaa27b7fb</ReqMsgId>
+      <InputCharset>UTF-8</InputCharset>
+    </head>
+    <body>
+      <IsvOrgId>202210000000000001316</IsvOrgId>
+      <OutTradeNo>63907ce3f8684e34b818ebf9db7b76df</OutTradeNo>
+      <MerchantId>226801000000142627642</MerchantId>
+    </body>
+  </request>
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod>
+    <ds:Reference URI="">
+      <ds:Transforms>
+        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+      </ds:Transforms>
+      <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+      <ds:DigestValue>ZQI7Yt2nU1vJuT/UkWk/Tb94wv8=</ds:DigestValue>
+    </ds:Reference>
+  </ds:SignedInfo>
+  <ds:SignatureValue>
+    jV5Kh4SvmqubvPL5IjXoF4M8EGr/TiPSQfFgytKTXmmrSogcZP/ElqS7hIA2bWYO6t2Fmg24NijU
+    ySDeBPaQAuBcKkFmZ3TqDiDVR3prpzo2IBdnK7XT7kX//qeBupMHY7gRKCwu11R71JX4NBgdvz8q
+    77VmILC5xTkHPRQtVmTqt/deqve0Tam7cRiV1hPOQSlZ5staX5w05t0TVOqgdXrbU6GKd4KNDURY
+    d/bDLjo92y/UlpzKR7ViVafDODG+F87MaQm72yAGZbXz2YnVF8C2AhGC78qWgw+VWe9+fCR2aCK+
+    D7PhydvIiVjUL5Jwsy+s6HjTMJN5feg3yujCzg==
+  </ds:SignatureValue>
+</ds:Signature>
+</document>

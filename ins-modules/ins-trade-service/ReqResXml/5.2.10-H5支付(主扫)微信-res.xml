@@ -4,23 +4,32 @@
       <Version>1.0.0</Version>
       <Appid>2018090700000286</Appid>
       <Function>ant.mybank.bkmerchanttrade.prePay</Function>
-      <RespTime>20180919175757</RespTime>
+      <RespTime>20180927190349</RespTime>
       <RespTimeZone>UTC+8</RespTimeZone>
-      <ReqMsgId>1ebc14d6-b8a6-4552-971f-c805b8c950f0</ReqMsgId>
+      <ReqMsgId>939dc1c4-d7ed-4ddd-9178-d56761333d3d</ReqMsgId>
       <Reserve></Reserve>
       <SignType>RSA</SignType>
       <InputCharset>UTF-8</InputCharset>
     </head>
     <body>
       <RespInfo>
-        <ResultStatus>U</ResultStatus>
-        <ResultCode>MT_PAY_REQUEST_IN_PROCESS</ResultCode>
-        <ResultMsg>支付单处理中，请稍后使用原参数再次发起调用,或查询交易订单状态</ResultMsg>
+        <ResultStatus>S</ResultStatus>
+        <ResultCode>0000</ResultCode>
+        <ResultMsg></ResultMsg>
       </RespInfo>
-      <OutTradeNo>dd993b93-aa43-4ec0-be89-3cf7c120e559</OutTradeNo>
-      <OrderNo></OrderNo>
-      <PrePayId></PrePayId>
-      <PayInfo></PayInfo>
+      <OutTradeNo>63907ce3f8684e34b818ebf9db7b76df</OutTradeNo>
+      <OrderNo>2018092710152010020001640000568978</OrderNo>
+      <PrePayId>wx2719034906269852b59d55d13968978613</PrePayId>
+      <PayInfo>
+        {
+        "appId":"wxdace645e0bc2c424",
+        "nonceStr":"a1066412ce7490cdec3b5b085918b406",
+        "package":"prepay_id=wx2719034906269852b59d55d13968978613",
+        "paySign":"F99E727E8531650425F266AE82D4D326",
+        "signType":"MD5",
+        "timeStamp":"1538046229"
+        }
+      </PayInfo>
     </body>
   </response>
   <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
@@ -32,12 +41,13 @@
           <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
         </Transforms>
         <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
-        <DigestValue>d8foRYGQy1lZYAhlnDvmpwvQ6oQ=</DigestValue>
+        <DigestValue>0IkhuBlQcXp/6z7IB3KKoCeFLjk=</DigestValue>
       </Reference>
     </SignedInfo>
     <SignatureValue>
-      qZ/VaLd4eV8ySyzNXe4FP5vc3SWjSdzZwc3vlE/ksJ91xINJajpTdkI/PC/WnhkMLHm0yF0/d9Xu
-      oYzu6G50wFsrOpBcJxBUdOYhDFkTxZ59AQKWvldVeRSRW0tA3CXc5lWq5+sXzYUhq6CzoWBCJbRS
-      9c75FcfontV4Qu894Qg=
+      C4b4jF/Jmf0o63U6QpuuwYCuN80S/q1zjpJmQRlN2WdCfCwCQudHD5tKmyu29RlusFWRLqIcABe5
+      S/2iE5uUVnXFfDXQRwSUbf8BJEMt6cSkDFXYEEH+eiM8Ju1j0EGMAmD5XyHQUcZAvJEhg+sIXa6C
+      qJGoWX89SzVYkOX2Ujs=
     </SignatureValue>
-  </Signature></document>
+  </Signature>
+</document>
