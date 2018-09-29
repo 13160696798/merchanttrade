@@ -1,0 +1,42 @@
+<document>
+  <response id="response">
+    <head>
+      <Version>1.0.0</Version>
+      <Appid>2018090700000286</Appid>
+      <Function>ant.mybank.bkmerchanttrade.payCancel</Function>
+      <RespTime>20180929151604</RespTime>
+      <RespTimeZone>UTC+8</RespTimeZone>
+      <ReqMsgId>a5800b20-da87-4303-a3a5-9052842dac1e</ReqMsgId>
+      <Reserve></Reserve>
+      <SignType>RSA</SignType>
+      <InputCharset>UTF-8</InputCharset>
+    </head>
+    <body>
+      <RespInfo>
+        <ResultStatus>S</ResultStatus>
+        <ResultCode>0000</ResultCode>
+        <ResultMsg></ResultMsg>
+      </RespInfo>
+      <OutTradeNo>99a17aacb2a94f6f889c807f7077b49f</OutTradeNo>
+      <OrderNo>2018092910152010010001640000570911</OrderNo>
+    </body>
+  </response>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+        <DigestValue>dmJuopyCY6lZvr/Nl6VqAJS/gjo=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>
+      cgNDHH7hGryZgSPKxWwwv2feuxxXM0dntIltaWNFuPOKIE57A6JrxjPWxpYe0XBNNr+XkvHhxGRS
+      EFl/fENzSqboluYgXMs4UHYjbnwlTiT4ZCS5g10tAWBb2Cm+fqP3w/tarGkHcRC2qFSHbVQKrQxS
+      PvgUW9jOB1tsXM5PNrQ=
+    </SignatureValue>
+  </Signature>
+</document>
