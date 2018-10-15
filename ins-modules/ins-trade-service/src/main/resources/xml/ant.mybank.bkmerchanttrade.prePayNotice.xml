@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--5.2.12	支付结果异步通知<ant.mybank.bkmerchanttrade.prePayNotice> -->
+<body>
+  <xmlTag tagName="OutTradeNo"></xmlTag>
+  <xmlTag tagName="ChannelType"></xmlTag>
+  <xmlTag tagName="TotalAmount"></xmlTag>
+  <xmlTag tagName="Currency"></xmlTag>
+  <xmlTag tagName="MerchantId"></xmlTag>
+  <xmlTag tagName="IsvOrgId"></xmlTag>
+  <xmlTag tagName="Attach"></xmlTag>
+  <xmlTag tagName="GmtPayment"></xmlTag>
+  <xmlTag tagName="BankType"></xmlTag>
+  <xmlTag tagName="IsSubscribe"></xmlTag>
+  <xmlTag tagName="PayChannelOrderNo"></xmlTag>
+  <xmlTag tagName="MerchantOrderNo"></xmlTag>
+  <xmlTag tagName="SubAppId"></xmlTag>
+  <xmlTag tagName="CouponFee"></xmlTag>
+  <xmlTag tagName="OpenId"></xmlTag>
+  <xmlTag tagName="BuyerLogonId"></xmlTag>
+  <xmlTag tagName="BuyerUserId"></xmlTag>
+  <xmlTag tagName="Credit"></xmlTag>
+  <xmlTag tagName="ReceiptAmount"></xmlTag>
+  <xmlTag tagName="BuyerPayAmount"></xmlTag>
+  <xmlTag tagName="InvoiceAmount"></xmlTag>
+</body>

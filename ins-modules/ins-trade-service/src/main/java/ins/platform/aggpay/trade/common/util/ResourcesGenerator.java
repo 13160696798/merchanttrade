@@ -36,7 +36,7 @@ public class ResourcesGenerator {
 
 
     public static void main(String[] args) {
-        String outputDir = "/Users/yanshuiping/Desktop/generator";
+        String outputDir = "E:/tools";
         final String viewOutputDir = outputDir + "/view/";
         AutoGenerator mpg = new AutoGenerator();
         // 全局配置
@@ -50,7 +50,7 @@ public class ResourcesGenerator {
         gc.setBaseResultMap(true);
         // XML columList
         gc.setBaseColumnList(true);
-        gc.setAuthor("ripin");
+        gc.setAuthor("zhangyu");
         mpg.setGlobalConfig(gc);
 
         // 数据源配置
